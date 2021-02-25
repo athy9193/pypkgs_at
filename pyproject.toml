@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pypkgs_at"
+version = "0.1.0"
+description = "Python package that eases the pain of concatenating Pandas categoricals!"
+authors = ["Alex Truong <haiyen@student.ubc.ca>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
